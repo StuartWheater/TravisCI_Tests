@@ -1,0 +1,6 @@
+language: generic
+sudo: required
+dist: xenial
+
+install:
+    - travis_wait 20 sleep 900
