@@ -1,7 +1,7 @@
 language: r
 sudo: required
-# dist: xenial
-dist: trusty
+dist: xenial
+# dist: trusty
 
 r:
     - 3.4.0
