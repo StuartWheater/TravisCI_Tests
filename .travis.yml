@@ -1,7 +1,6 @@
-language: generic
+language: r
 sudo: required
 dist: xenial
 
-install:
-    - travis_wait 20 test.sh
-    - travis_wait 20 sudo test.sh
+before_install:
+    - echo "Before Install...."
