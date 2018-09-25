@@ -4,5 +4,6 @@ dist: xenial
 # dist: trusty
 
 install:
+    - cd StuartWheater/TravisCI_Tests
     - travis_wait 20 test.sh
     - travis_wait 20 sudo test.sh
