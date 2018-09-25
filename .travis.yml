@@ -5,5 +5,5 @@ dist: xenial
 
 install:
     - ls  -la
-    - travis_wait 20 test.sh
-    - travis_wait 20 sudo test.sh
+    - travis_wait 20 ./test.sh
+    - travis_wait 20 sudo ./test.sh
