@@ -6,8 +6,8 @@ dist: xenial
 install:
 #    - travis_wait 25 ./test_sleep.sh
 #    - travis_wait 25 ./test_wait.sh
-    - travis_wait 25 ./test-exec_subtest-sleep.sh
-    - travis_wait 25 ./test-exec_subtest-wait.sh
+#    - travis_wait 25 ./test-exec_subtest-sleep.sh
+#    - travis_wait 25 ./test-exec_subtest-wait.sh
     - travis_wait 25 ./test-wait_subtest-sleep.sh
     - travis_wait 25 ./test-wait_subtest-wait.sh
 
