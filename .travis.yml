@@ -1,11 +1,8 @@
-language: r
+language: generic
 sudo: required
 dist: xenial
 # dist: trusty
 
-r:
-    - 3.4.0
-    - 3.5.0
-
-before_install:
-    - echo "Before Install...."
+install:
+    - travis_wait 20 test.sh
+    - travis_wait 20 sudo test.sh
